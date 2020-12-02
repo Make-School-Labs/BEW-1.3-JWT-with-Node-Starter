@@ -1,7 +1,6 @@
 # Instructions for using JWT with Node.js
 
-### At the end of this activity you should be able successfully create a token, verify the token to be able to login and access the protected route on the [home page](http://localhost:3000).
-
+### At the end of this activity you should successfully create a token, verify the token so that you can login and also access the protected route on the [home page](http://localhost:3000).
 
 In this exercise you are to:
 

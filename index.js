@@ -7,10 +7,10 @@
 const express = require('express')
 const cookieParser = require('cookie-parser');
 
-// 2. load the json webtoken dependency
+// 2. Add required jsonwebtoken import here
 const jwt = '';
 
-//Start the express app
+// Starts the express app
 const app = express();
 
 //use cookie-parser to populate req.cookies
