@@ -8,11 +8,11 @@ In this exercise you are to:
 
 2. Install `jsonwebtoken` from NPM `npm install -S jsonwentoken` and load it by requiring on line 11
 
-3. Include a private key in the `.env` file and save it as `SECRET`. For example: `SECRET=myJWTKey`. You can use any string as your private key.
+3. Create a `.env` file and include the values for port and private key. Check the `.env-sample` for refrence. You can use any string as your private key and an available port value for your port number.
 
 4. Declare a const called payload on **line 43** and set it to the username of the user details on **line 37**. For example:  `const payload = {username: user.username}`
 
-5. Create a token on **line 46** with the `jwt.sign()` function- see example [here](https://github.com/Make-School-Courses/BEW-1.3-Server-Side-Architectures-and-Frameworks/tree/master/Lessons/07-Authentication):
+5. Create a token on **line 46** with the `jwt.sign()` function. See example for reference [here](https://github.com/Make-School-Courses/BEW-1.3-Server-Side-Architectures-and-Frameworks/tree/master/Lessons/07-Authentication):
 
   - [x] pass the payload as its first argument.
   - [x] pass the private key you set in task 1 above as its second argument
