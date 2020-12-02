@@ -39,10 +39,10 @@ app.post('/login', (req, res) => {
         email: 'makeschoolbew@makeschool.com',
 
       }
-      // 4. Set and declare the payload
+      // 4. TODO: Set and declare the payload
       const payload = ''
 
-    // 5. Create a token with jwt.sign() function here
+    // 5. TODO: Create a token with jwt.sign() function here
     const token = ''
 
     // Set the token as a browser cookie
@@ -54,7 +54,7 @@ const checkAuth = (req, res, next) => {
     
     const token = req.cookies.nToken;
 
-    //5. Verify token, then call next() function when it's done
+    //6. TODO: Verify token(inclusde the right parameters in the jwt.verify function), then call next() function when it's done
 
     jwt.verify(/*pass the token as first argument*/, /*pass the secret key as its second argument*/, (err, decodedToken) => {
         if (err) {
