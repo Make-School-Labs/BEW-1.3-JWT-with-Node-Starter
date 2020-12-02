@@ -2,11 +2,10 @@
 
 ### At the end of this activity you should be able successfully create a token, verify the token to be able to login and access the protected route on the [home page](http://localhost:3000).
 
-`express`, `dotenv` and `cookie-parser` are already installed. 
 
 In this exercise you are to:
 
-1. Clone this repository with SSH `git clone git@github.com:Make-School-Labs/BEW-1.3-JWT-with-Node-Starter.git` or HTTPS `https://github.com/Make-School-Labs/BEW-1.3-JWT-with-Node-Starter.git`.
+1. Clone this repository then run `npm install` to install the necessary packages.
 
 2. Install `jsonwebtoken` from NPM `npm install -S jsonwentoken` and load it by requiring on line 11
 
