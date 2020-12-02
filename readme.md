@@ -1,6 +1,6 @@
 # Instructions for using JWT with Node.js
 
-### At the end of this activity you should be able successfully create a token, login and verify the token to access the protected route on the [home page](http://localhost:3000).
+### At the end of this activity you should be able successfully create a token, verify the token to be able to login and access the protected route on the [home page](http://localhost:3000).
 
 `express`, `dotenv` and `cookie-parser` are already installed. 
 
@@ -27,6 +27,6 @@ In this exercise you are to:
 
 7. Start the server by running `npm start` in you terminal (make sure you are in the right directory on your terminal)
 
-8. Go to your browser and visit `localhost:3000`, click on the log in button. You should be redirected to a page that says `You are logged in`.
+8. Go to your browser and visit `http://localhost:3000`, click on the log in button. You should be redirected to a page that says `You are logged in`.
 
-9. Bonus: Try out the protected route in your browser `localhost:3000/protectedRoute`. Are you able to access it?
+9. Bonus: Try out the protected route in your browser `http://localhost:3000/protectedRoute`. Are you able to access it?
